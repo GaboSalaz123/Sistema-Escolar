@@ -1,0 +1,15 @@
+Instrucciones del sistema:
+
+Los archivos principales que están al abrir la carpeta son la base de datos del sistema que es bdcme.sql, un bloc de nota que tenia para poder copiar el codigo y encriptar contraseñas en la base de datos. 
+El codigo.js que es el proceso de logica para el login, 
+El estilos.css son los estilos css del login
+El index.php que es el login, ahi se inicia sesion
+
+Las conexiones a la base de datos está en el apartado "bd", está el archivo conexion.php que es el de la conexion a la base de datos, está el archivo de login.php que es para capturar los datos del formulario de login, y el logout.php que es el cerrar sesion
+
+En el apartado de bootstrap están los estilos de bootstrap del login, es decir del index.php que está afuera en la carpeta, osea el archivo principal de la carpeta que es el login
+
+Y En dashboard aparecerán todas los archivos del sistema, dentro de dashboard aparece "vistas" que es la parte superior, y la parte inferior. En la parte_superior.php hay una condicion de logica, si es un administrador, lo redirige a index.php de la seccion dashboard que es la pantalla principal del administrador, si es una maestra lo redirige a index2.php que es la pantalla principal de la maestra
+También está para redirigir a index3.php que es de Supervisor y ya está creado tambien pero no está terminado completamente
+
+Todo lo demás son dependencias
